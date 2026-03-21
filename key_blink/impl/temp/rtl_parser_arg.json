@@ -4,6 +4,18 @@
   {
    "Path" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/key_blink.v",
    "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/video_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/key.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/led.v",
+   "Type" : "verilog"
   }
  ],
  "IncludePath" : [
@@ -11,7 +23,7 @@
  ],
  "LoopLimit" : 2000,
  "ResultFile" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/impl/temp/rtl_parser.result",
- "Top" : "",
+ "Top" : "video_top",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"
 }

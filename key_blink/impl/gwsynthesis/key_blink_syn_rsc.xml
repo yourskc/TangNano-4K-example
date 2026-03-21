@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="blink" Register="60" Lut="138" T_Register="60(60)" T_Lut="138(138)"/>
+<Module name="video_top"/>

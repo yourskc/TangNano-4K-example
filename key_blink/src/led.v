@@ -1,8 +1,7 @@
 module led#(
-    parameter clk_frequency = 27_000_000 ,
-    parameter io_num        = 1
+    parameter clk_frequency = 27_000_000 
 )(
-    input                   clk , // Clock in
+    input                   clk , 
     input                   rst_n,
     input                led_start,
     output      led_o
@@ -16,16 +15,6 @@ reg [$clog2(count_100ms)-1:0] count_100ms_reg;
 reg led = 1'b1;
 reg [5:0] led_flash_cnt = 6'd0;
 
-// key flag
-
-
-reg [1:0] key_input2 = 2'd3;
-
-
-
-reg key_flag = 1'b0;
-
-
 // LED Toggle
 always @(posedge clk or negedge rst_n) begin
      if(!rst_n) begin
@@ -33,9 +22,6 @@ always @(posedge clk or negedge rst_n) begin
         count_100ms_reg <= 'd0 ;
      end
     else begin
-
-// 偵測 按鍵
-
 
 if (led_start) begin
         led_flash_cnt <= 6'd3;

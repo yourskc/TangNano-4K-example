@@ -7,10 +7,13 @@ Running placement......
 [10%] Placement Phase 0 completed
 [20%] Placement Phase 1 completed
 [30%] Placement Phase 2 completed
+WARN  (TA1132) :  'clk' was determined to be a clock but was not created.
 [50%] Placement Phase 3 completed
 Running routing......
 [60%] Routing Phase 0 completed
 [70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'clk_d' by the specified constraint. And then it may lead to the excessive delay or skew
 [90%] Routing Phase 3 completed
 Running timing analysis......
 [95%] Timing analysis completed
@@ -24,5 +27,5 @@ Generate file "D:\Gowin_work\TangNano-4K-example-skc\key_blink\impl\pnr\key_blin
 Generate file "D:\Gowin_work\TangNano-4K-example-skc\key_blink\impl\pnr\key_blink.rpt.html" completed
 Generate file "D:\Gowin_work\TangNano-4K-example-skc\key_blink\impl\pnr\key_blink.rpt.txt" completed
 Generate file "D:\Gowin_work\TangNano-4K-example-skc\key_blink\impl\pnr\key_blink.tr.html" completed
-Sat Mar 21 17:31:15 2026
+Sat Mar 21 18:34:48 2026
 

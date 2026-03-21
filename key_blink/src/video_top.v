@@ -6,12 +6,12 @@ output led_o
 );
 
 wire key_output; 
-assign key_output = 1'b1;
+
 // 1. key + led 
 // blink blink_ins ( .clk(clk), .rst_n(rst_n), .key(key), .led_o(led_o) );
 
-// 2. key and led seperated  
-// key key_ins ( .clk(clk), .rst_n(rst_n), .key(key), .key_output(key_output) );
+// 2. key and led  
+key key_ins ( .key(key), .key_output(key_output) );
 led led_ins ( .clk(clk), .rst_n(rst_n), .led_start(key_output) , .led_o(led_o));
 
 endmodule 

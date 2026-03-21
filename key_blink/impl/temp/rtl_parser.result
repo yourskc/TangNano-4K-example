@@ -17,6 +17,14 @@
   "SubInsts" : [
    {
     "InstFile" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/video_top.v",
+    "InstLine" : 14,
+    "InstName" : "key_ins",
+    "ModuleFile" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/key.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "key"
+   },
+   {
+    "InstFile" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/video_top.v",
     "InstLine" : 15,
     "InstName" : "led_ins",
     "ModuleFile" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/led.v",
@@ -24,13 +32,5 @@
     "ModuleName" : "led"
    }
   ]
- },
- {
-  "InstFile" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/key.v",
-  "InstLine" : 1,
-  "InstName" : "key",
-  "ModuleFile" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/key.v",
-  "ModuleLine" : 1,
-  "ModuleName" : "key"
  }
 ]

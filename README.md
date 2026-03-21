@@ -20,6 +20,12 @@ A demo to drive OV2640 camera and HDMI output.
 
 KEY_1 is reset and KEY_2 is output switch(Camera image or HDMI output test).
 
+**Features:**
+- OV2640 camera capture
+- HyperRAM frame buffer
+- HDMI output at 1280x720
+- Geometric fisheye distortion correction (coordinate remapping)
+
 ### hdmi_720p
 
 A HDMI frame demo based on [SVO](https://github.com/cliffordwolf/SimpleVOut).

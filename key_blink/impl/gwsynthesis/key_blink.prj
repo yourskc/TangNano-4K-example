@@ -4,10 +4,10 @@
     <Version>beta</Version>
     <Device id="GW1NSR-4C" package="QFN48P" speed="6" partNumber="GW1NSR-LV4CQN48PC6/I5"/>
     <FileList>
-        <File path="D:\Gowin_work\TangNano-4K-example-skc\key_blink\src\key_blink.v" type="verilog"/>
-        <File path="D:\Gowin_work\TangNano-4K-example-skc\key_blink\src\video_top.v" type="verilog"/>
         <File path="D:\Gowin_work\TangNano-4K-example-skc\key_blink\src\key.v" type="verilog"/>
+        <File path="D:\Gowin_work\TangNano-4K-example-skc\key_blink\src\key_blink.v" type="verilog"/>
         <File path="D:\Gowin_work\TangNano-4K-example-skc\key_blink\src\led.v" type="verilog"/>
+        <File path="D:\Gowin_work\TangNano-4K-example-skc\key_blink\src\video_top.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

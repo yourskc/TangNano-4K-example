@@ -2,19 +2,19 @@
  "Device" : "GW1NSR-4C",
  "Files" : [
   {
-   "Path" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/key_blink.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/video_top.v",
-   "Type" : "verilog"
-  },
-  {
    "Path" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/key.v",
    "Type" : "verilog"
   },
   {
+   "Path" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/key_blink.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/led.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin_work/TangNano-4K-example-skc/key_blink/src/video_top.v",
    "Type" : "verilog"
   }
  ],

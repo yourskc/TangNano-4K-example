@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="video_top" T_Register="29(0)" T_Lut="62(0)">
- <SubModule name="led_ins" Register="29" Lut="62" T_Register="29(29)" T_Lut="62(62)"/>
+<Module name="video_top" Register="30" Lut="71" T_Register="59(30)" T_Lut="143(71)">
+ <SubModule name="led_ins" Register="29" Lut="72" T_Register="29(29)" T_Lut="72(72)"/>
 </Module>
